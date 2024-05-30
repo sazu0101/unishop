@@ -1,0 +1,66 @@
+
+
+.admin-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.admin-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding:5px;
+    border-radius: 5px;
+}
+
+.admin-product .image-part{
+    flex: 15%;
+   text-align: center;
+}
+
+.admin-product .image-part img{
+    width: 100px;
+    height: 100px;
+}
+.admin-product  .details{
+    flex:70%;
+    margin-left: 8px;
+}
+.details h3,p{
+    margin: 2px;
+}
+
+.details h3{
+    font-size: 1rem;
+}
+
+.admin-product .action-butttons{
+    flex:15%;
+
+}
+
+.action-butttons .delete-btn,.edit-btn{
+    border: none;
+    width: 55px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 2px;
+}
+
+.action-butttons .delete-btn{
+    background-color: #870000;
+}
+
+.action-butttons .edit-btn{
+  background-color: #009900;
+}
+
+.action-butttons .edit-btn div{
+    display: none;
+}

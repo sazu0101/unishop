@@ -1,0 +1,211 @@
+
+
+.user_icon{
+    font-size: 1.6rem;
+    color: black;
+}
+
+.user{
+    background-color: var(--alpha-bg-color);
+    position: relative;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: visible;
+    z-index: 1;
+    margin: 0px 15px 0px 15px ;
+    cursor: pointer;
+
+}
+
+.modal{
+    margin: 0px;
+}
+
+.modal.show{
+    padding: 0px;
+}
+
+.modal.fade{
+    padding: 0px;
+}
+
+.modal-backdrop{
+    margin-top: 0px;
+    z-index: 11;
+    padding: 0px;
+    @media(max-width:768px){
+        z-index: 2;
+    }
+}
+
+
+.modal-content{
+    width: 95%; 
+    height: auto;
+}
+
+.modal-dialog{
+
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form label{
+    display: block;
+    font-size: 14px;
+    padding-left: 4px;
+    margin-bottom: 5px;
+    text-indent: 26px;
+    text-align: start;
+}
+
+
+.login-form .input-field{
+    width: 380px;
+    outline: none;
+    border: 1px solid rgba(215,215,215,0.9);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.login-form .password{
+    position: relative;
+}
+ 
+.login-form .password .input-field{
+    width: 380px;
+    border: 1px solid rgba(215,215,215,0.9);
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+.login-form .password .hide-show-password{
+    position: absolute;
+    border: none;
+    padding: 3px 5px;
+    margin: 0px -8px;
+    background: transparent;
+    top: 31px;
+    right: 55px;
+    
+}
+
+.login-form .forgot-password{
+   text-align: end;
+   font-size: 0.9rem;
+   margin:25px 40px 0px 0px;
+   color: #000;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+
+.login-form .sign-in-btn{
+    width: 85%;
+    margin: 15px auto 0px auto;
+    background-color: #222836;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 10px 0px;
+    transition: .2s;
+    &:hover{
+        background-color: #000;
+        transition: .2s;
+    }
+}
+
+.login-form .login p{
+    margin-top:10px;
+}
+
+
+@media(min-width:1367px){
+    .login{
+        height: 20vh;
+        margin: 130px 0px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .modal-dialog{
+        max-width: 500px;
+        text-align: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .user{
+        width: 50px;
+        background-color: transparent;
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    .user_icon{
+        color: #FFF;
+    }
+
+}
+
+@media(max-width:500px){
+    .modal-header{
+        margin: 0px;
+    }
+   
+    .modal-content{
+        width: auto;
+        height: auto;
+    }
+    
+    .modal-dialog{
+        margin-left: auto;
+        max-width: 350px;
+        margin-right: auto;
+        padding: 0px;
+    }
+
+    .login-form label{
+        text-indent: 16px;
+    }
+
+    .login-form .input-field{
+        width: 280px;
+    }
+
+    .login-form .password .input-field{
+        width: 280px;
+    }
+
+    .login-form .forgot-password{
+        margin: 25px 20px 0px 0px
+    }
+
+    .login-form .password .hide-show-password{
+        position: absolute;
+        border: none;
+        padding: 3px 5px;
+        margin: 0px -8px;
+        background: transparent;
+        top: 31px;
+        right:30px;
+        
+    }
+
+    .login-form .sign-in-btn{
+        width: 90%;
+    }
+
+}
+
+

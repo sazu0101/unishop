@@ -1,0 +1,8 @@
+.quantity p{
+    font-size: 1.1rem;
+}
+.quantity button{
+    font-size: 1.3rem;
+    margin: 0px 8px;
+    border: none;
+}

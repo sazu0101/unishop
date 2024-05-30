@@ -1,7 +1,8 @@
-#unishop
+## live site at 
 
-#this is demo line 
 
-#this is from sazu0101
+##feauters
 
-#this line is also from sazu0101
+Authentication , Single Product Page , add to cart and remove from cart , multiple manager
+role , admin dashboard , search and filter functionality and more 
+

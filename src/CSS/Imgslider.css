@@ -1,0 +1,102 @@
+
+/*Img Slider Css*/
+
+.carousel{
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.carousel-inner{
+  margin: 0px 0px 0px 0px;
+}
+
+.carousel-item{
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img-fluid{
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+  object-position: center;
+  margin: 0px;
+}
+
+
+.carousel >.carousel-control-prev{
+ width: 30px;
+  opacity: 1;
+}
+
+.carousel >.carousel-control-next{
+  width: 30px;
+  opacity: 1;
+}
+
+.carouselprev-icon,.carouselnext-icon{
+  background-color: rgba(0,0,0,.3);
+  width: 33px;
+  color:#fff;
+  height: 65px;
+  transition: .5s;
+
+  &:hover{
+    transition: .5s ease-in-out;
+  }
+
+}
+
+
+
+.carousel-control-prev .visually-hidden{
+  color: rebeccapurple;
+}
+
+.custom{
+  color: brown;
+}
+
+.vcustom{
+  color: tomato;
+}
+
+
+@media(max-width:1115px){
+  .carousel{
+    width: 100%;
+  }
+ 
+  .img-fluid{
+    height: auto;
+    border-radius: 0;
+  }
+  
+}
+
+
+
+
+@media(max-width:768px){
+  .carousel-control-prev,.carousel-control-next{
+    width: 30px;
+  }
+  
+.carouselprev-icon,.carouselnext-icon{
+  width: 30px;
+  height: 45px;
+}
+}
+
+@media(max-width:468px){
+
+  .carousel-control-prev,.carousel-control-next{
+    width: 20px;
+  }
+  
+.carouselprev-icon,.carouselnext-icon{
+  width: 20px;
+  height: 40px;
+}
+
+}
+

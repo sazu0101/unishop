@@ -1,0 +1,77 @@
+
+.side_filters{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px 0px 0px;
+  @media(max-width:840px){
+    display: none;
+  }
+  }
+
+.side_filters .brand{
+    display: block;
+    margin:3px 0px;
+    padding: 5px;
+    transition: .1s ease-in cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    &:hover{
+        background-color: #F3F5F9;
+        transition: .1s ease-in cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    }
+}
+
+.side_filters .brand input{
+    width: 15px;
+}
+.side_filters .brand label{
+    margin-left: 6px;
+}
+
+
+/**brand filter component css*/
+.side_filters .filter_by_brands{
+    width: 250px;
+    height: 55px;
+    overflow: hidden;
+    background-color:#fff;
+    margin: 0px 0px 10px 0px ;
+    padding:8px 10px;
+    box-sizing: border-box;
+    transition: 0.2s;
+    cursor: pointer;  
+    -webkit-box-shadow: 1px 5px 3px -4px rgba(226,226,235,1);
+    -moz-box-shadow: 1px 5px 3px -4px rgba(226,226,235,1);
+    box-shadow: 1px 5px 3px -4px rgba(226,226,235,1);
+}
+.side_filters .brands_collapse{
+    height: auto;
+    transition: 0.2s;   
+}
+
+
+.side_filters .toggle_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.side_filters .filter_by_brands hr{
+    margin: 14px -10px;
+}
+
+/*rating filter component*/
+.side_filters .filter_by_rating{
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+    margin: 0px 0px 10px 0px;
+    padding:8px 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.2s;  
+    -webkit-box-shadow: 1px 5px 3px -4px rgba(226,226,235,1);
+    -moz-box-shadow: 1px 5px 3px -4px rgba(226,226,235,1);
+    box-shadow: 1px 5px 3px -4px rgba(226,226,235,1);
+}

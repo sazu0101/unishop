@@ -1,0 +1,24 @@
+
+
+#cover {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 40px 70px 40px;
+  width: 94%;
+  height: auto;
+
+}
+
+@media(max-width: 1115px) {
+  #cover{
+    max-width: 94%;
+    margin: 0px auto 70px auto;
+  }
+}
+
+@media(min-width: 1367px) {
+  #cover{
+    max-width: 1412px;
+    margin: 20px auto 70px auto;
+  }
+}

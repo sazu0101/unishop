@@ -1,0 +1,193 @@
+
+
+
+.confirm_order{
+    display: flex;
+    margin: 40px auto;
+    border-radius: 5px;
+    
+    @media(max-width:1115px){
+     flex-direction: column;
+    }
+    }  
+    
+    .confirm_order2{
+     display: flex;
+     margin: 40px auto; 
+     border-radius: 5px;
+     opacity: 0.6;
+    
+    @media(max-width:1115px){
+     flex-direction: column;
+    }
+    }
+    
+    .address_form{
+        background-color: #fff;
+        display: flex;
+        flex: 70%;
+        height: 500px;
+        margin: 20px 150px;
+        flex-direction:column;
+        align-items: center;
+        padding-top: 40px;
+        border-radius: 1em;
+        @media(max-width:1115px){
+            order: 2;
+            margin: 20px 20px;
+           }
+    
+        @media(max-width:768px){
+            order: 2;
+            margin: 5px 20px;
+           }
+    }
+    
+    .address_form{
+        text-align: center;
+        
+    }
+    .address_form .name{
+      width: 300px;
+      margin: 5px;
+      padding: 8px;
+      border: 1px solid rgba(0,0,0,0.5);
+      
+    @media(max-width:800px){
+        width: 300px;
+    }
+      
+    }
+    
+    .address_form .email{
+        width: 300px;
+        margin: 5px;
+        padding: 8px;
+        border: 1px solid rgba(0,0,0,0.5);
+        
+      @media(max-width:800px){
+          width: 300px;
+      }
+        
+      }
+    
+    .address_form .number{
+        width: 300px;
+        margin: 5px;
+        padding: 8px;
+        border: 1px solid rgba(0,0,0,0.5);
+        @media(max-width:800px){
+            width: 300px;
+            display: block;
+        }
+    
+    }
+    
+     .address_form .alter_number{
+        width: 300px;
+        margin: 5px;
+        padding: 8px;
+        border: 1px solid rgba(0,0,0,0.5);
+        @media(max-width:800px){
+            width: 300px;
+        }
+    
+    }
+    
+    .address_form select{
+        width: 300px;
+        margin: 5px;
+        padding: 8px;
+        border: 1px solid rgba(0,0,0,0.5);
+        border-radius: 5px;
+        @media(max-width:800px){
+            width: 300px;
+            display: block;
+        }
+    
+    }
+    
+    
+    .address_form .comment{
+        width: 610px;
+        height: 70px;
+        margin: 5px;
+        border: 1px solid rgba(0,0,0,0.5);
+        @media(max-width:800px){
+            width: 300px;
+        }
+    
+    }
+    
+    
+    .check_terms_And_confirm_btn{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        margin: 0px;
+        padding: 10px 0px 10px 0px;
+        width: 100%;
+        text-align: start;
+        text-indent: 45px;
+        
+        @media(max-width:768px){
+            text-indent: 0px;
+            text-align: center;
+           }
+    }
+    
+    .check_terms_And_confirm_btn div input{
+        width: 20px;
+        margin: 0px 2px 0px 0px;
+    }
+    
+    
+    .confirm_order_btn{
+        background-color:var(--main-bg-color);
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 600;
+        padding: 8px 20px;
+        margin-top: 10px;
+    }
+    
+    .confirm_order_btn:disabled{
+        background-color: #527aa7;
+    }
+    
+    
+    
+    
+    .checkout{
+        flex: 30%;
+        margin: 30px;
+        background-color: #FFFFFF;
+        height: 260px;
+        border-radius: .8em;
+        @media(max-width:1115px){
+            order: 1;
+           
+           }
+    }
+    
+    .checkout .title{
+        text-indent: 20px;
+        margin: 0px;
+        padding: 20px 0px 0px 0px;
+    }
+    
+    .checkout div{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    
+
+    @media(min-width:1367px){
+        .confirm_order{
+            max-width: 1366px;
+        }
+        .confirm_order2{
+            max-width: 1366px;
+        }
+    }

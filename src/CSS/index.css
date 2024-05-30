@@ -1,0 +1,13 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Open+Sans&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body{
+    background-color: #F2F4F8;
+}
+
+a,p,h2,h3,h4,h5,h6,label{
+    font-family: 'Inter', sans-serif;
+    
+
+  }

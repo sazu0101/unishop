@@ -1,0 +1,25 @@
+
+
+table{
+  width: 100%;  
+  border: 1px solid black   ;
+}   
+
+thead{
+    background-color: #555;
+    color: #fff;
+}
+tr{
+    border: 1px solid black   ;
+}
+
+td{
+    border: 1px solid black   ;
+}
+
+
+
+.orderID{
+    width: 15%;
+
+}
