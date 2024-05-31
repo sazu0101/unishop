@@ -190,8 +190,8 @@ const Router = () => {
           return <Route key={i} path={`/speakers/${Item}`} element={<LazyComponent componentName={Item}/> } />
         })}
 
-      {categories.books.map((Item,i)=>{
-          return <Route key={i} path={`/books/${Item}`} element={<LazyComponent componentName={Item}/> } />
+      {categories.academic_books.map((Item,i)=>{
+          return <Route key={i} path={`/academic_books/${Item}`} element={<LazyComponent componentName={Item}/> } />
         })}  
 
       {categories.other_items.map((Item,i)=>{

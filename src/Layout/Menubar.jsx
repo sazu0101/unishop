@@ -11,6 +11,7 @@ import { categories } from "../Component/Categories";
 import { IoIosArrowForward } from "react-icons/io";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faBook,
   faLightbulb,
   faMobileScreen,
   faHeadphones,
@@ -18,7 +19,6 @@ import {
   faClock,
   faLaptop,
   faVolumeHigh,
-  faBook,
   faHouse,
   faPlugCircleBolt,
   faCircle,
@@ -28,6 +28,7 @@ import {
 const Menubar = ({ onScrollMenuBar, onClickMenuBar }) => {
   //Make the array of icons
   const iconArr = [
+    faBook,
     faLaptop,
     faMobileScreen,
     faHeadphones,
@@ -37,7 +38,6 @@ const Menubar = ({ onScrollMenuBar, onClickMenuBar }) => {
     faHouse,
     faPlugCircleBolt,
     faVolumeHigh,
-    faBook,
     faCircle,
     faGift,
   ];
